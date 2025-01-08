@@ -1,8 +1,57 @@
-# React + Vite
+# Leaderboard API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The data in this project is sourced from a Google Sheet, which is converted into an API using [sheet.best](https://sheet.best). This allows for seamless integration of Google Sheets data into the project, making it easy to manage and update the leaderboard in real time.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a React-based leaderboard application, using Vite as the build tool and TailwindCSS for styling. The application provides a dynamic, real-time display of leaderboard data fetched directly from a Google Sheet API. 
+
+## Installation
+
+To get started, clone this repository and install the necessary dependencies:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-repo/leader-board.git
+   cd leader-board
+2. Install the dependencies:
+npm install
+
+
+Here's the entire README content in a single file format. You can copy and paste it directly:
+
+markdown
+Copy code
+# Leaderboard API
+
+The data in this project is sourced from a Google Sheet, which is converted into an API using [sheet.best](https://sheet.best). This allows for seamless integration of Google Sheets data into the project, making it easy to manage and update the leaderboard in real time.
+
+## Project Overview
+
+This project is a React-based leaderboard application, using Vite as the build tool and TailwindCSS for styling. The application provides a dynamic, real-time display of leaderboard data fetched directly from a Google Sheet API. 
+
+## Installation
+
+To get started, clone this repository and install the necessary dependencies:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-repo/leader-board.git
+   cd leader-board
+2. Install the dependencies:
+npm install
+
+
+3. Development
+To start the development server, run:
+npm run dev
+
+
+DevDependencies
+@eslint/js: ESLint configuration for JavaScript.
+@vitejs/plugin-react: Vite plugin for React.
+eslint-plugin-react: Linter plugin for React best practices.
+postcss: CSS tool for autoprefixing.
+autoprefixer: PostCSS plugin to automatically add vendor prefixes.
